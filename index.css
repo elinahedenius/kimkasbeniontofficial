@@ -15,30 +15,29 @@ body {
   color: #f9f9f2;
   background-color: #f7e885;
   margin: 0;
+  text-align: center;
 }
 
 section {
   height: 100vh;
 }
 
-#title {
-  padding-top: 3em;
-  text-align: center;
+#header {
+  padding: 1em 0;
   display: block;
+  width: 95%;
+  height: auto;
 }
 
 #gifs {
-  display: flex; 
+  display: flex;
+  height: auto;
 }
 
 .penguin {
-  display: flex;
-  width: 24vw;
-  padding-top: 11em;
+  width: 50%;
 }
 
 .cube {
-  position: relative;
-  left: 650px;
-  padding-top: 11em;
+  width: 50%;
 }
