@@ -23,23 +23,17 @@ section {
 
 #title {
   padding-top: 3em;
-  padding-left: 22.5em;
-  padding-right: 22.5em;
-  display: grid;
-  justify-content: center;
-  align-items: top;
-}
-
-#gifs {
-  padding-top: 11em;
-  align-items: bottom;
+  text-align: center;
+  display: block;
 }
 
 .penguin {
   width: 24vw;
+  padding-top: 11em;
 }
 
 .cube {
   position: relative;
   left: 650px;
+  padding-top: 11em;
 }
