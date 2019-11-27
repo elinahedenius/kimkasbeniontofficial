@@ -27,7 +27,12 @@ section {
   display: block;
 }
 
+#gifs {
+  display: flex; 
+}
+
 .penguin {
+  display: flex;
   width: 24vw;
   padding-top: 11em;
 }
