@@ -1,0 +1,35 @@
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+body {
+  font-family: monospace;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+section {
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.pageheader {
+  font-size: 50px;
+}
