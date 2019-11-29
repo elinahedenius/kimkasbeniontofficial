@@ -31,15 +31,27 @@ section {
   align-items: center;
 }
 
-#image {
-  display: flex;
-  justify-content: left;
-  height: 200px;
-  float: left;
-  padding: 1em; 
+.images {
+  align-items: center;
+  justify-content: center;
 }
-@media only screen and (min-width: 768px) {
+
+#image {
+  display:flex;
+  width:150px;
+  height: auto;
+  float: left;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
   .pageheader {
     font-size: 40px;
+  }
+  #image {
+    width: 270px;
+    height: auto;
   }
 }
